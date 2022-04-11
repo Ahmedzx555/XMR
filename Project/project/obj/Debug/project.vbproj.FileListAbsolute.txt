@@ -18,3 +18,13 @@ C:\Users\aHmEd\Desktop\Project\project\obj\Debug\project.vbproj.GenerateResource
 C:\Users\aHmEd\Desktop\Project\project\obj\Debug\project.exe
 C:\Users\aHmEd\Desktop\Project\project\obj\Debug\project.xml
 C:\Users\aHmEd\Desktop\Project\project\obj\Debug\project.pdb
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.exe
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.xml
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.pdb
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\bin\Debug\project.exe
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\bin\Debug\project.pdb
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\bin\Debug\project.xml
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.Advanced.resources
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.Form1.resources
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.Resources.resources
+C:\Users\aHmed\Documents\GitHub\XMR\Project\project\obj\Debug\project.vbproj.GenerateResource.Cache
