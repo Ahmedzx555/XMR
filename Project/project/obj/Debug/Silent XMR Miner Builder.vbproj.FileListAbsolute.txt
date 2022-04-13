@@ -1,0 +1,13 @@
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\SilentXMRMiner.Advanced.resources
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\SilentXMRMiner.Form1.resources
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\SilentXMRMiner.Resources.resources
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.vbproj.GenerateResource.Cache
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\bin\Debug\Silent XMR Miner Builder.exe
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\bin\Debug\Silent XMR Miner Builder.pdb
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\bin\Debug\Silent XMR Miner Builder.xml
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.exe
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.xml
+C:\Users\aHmEd\Desktop\SilentXMRMiner-sxmrm-v1.5.1\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.pdb
+C:\Users\aHmEd\Desktop\Project\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.exe
+C:\Users\aHmEd\Desktop\Project\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.xml
+C:\Users\aHmEd\Desktop\Project\SilentXMRMiner\obj\Debug\Silent XMR Miner Builder.pdb
